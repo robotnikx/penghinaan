@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tall People & Blood Pressure: What's the Deal?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Tall BP Watch 🧍‍♂️</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#facts">The Facts</a></li>
+                <li><a href="#quiz">Quick Check</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Are You Taller? You Might Want to Check Your BP!</h1>
+            <p class="subtitle">There's a buzz that **taller people** face a higher risk of **High Blood Pressure** (Hypertension). Let's dive into the science, the myths, and what you need to know.</p>
+            <button id="learnMoreBtn" class="cta-button">Find Out More!</button>
+        </div>
+        <div class="hero-image">
+            </div>
+    </section>
+
+    <hr>
+
+    <section id="facts" class="facts-section">
+        <h2>The Tall & BP Connection: Quick Facts</h2>
+        <div class="fact-cards">
+            <div class="card">
+                <h3>The Hypothesis 🤔</h3>
+                <p>Some studies suggest that being tall might lead to a greater strain on the circulatory system to pump blood over longer distances.</p>
+            </div>
+            <div class="card">
+                <h3>Is it True? 🔬</h3>
+                <p>The link is **complex**. While *some* data points to it, lifestyle, genetics, and environment play huge roles. It's not a guarantee!</p>
+            </div>
+            <div class="card">
+                <h3>What You Can Do 💪</h3>
+                <p>No matter your height, a balanced diet, regular exercise, and stress management are the best defenses against hypertension.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="quiz" class="quiz-section">
+        <h2>Quick Height & Health Check</h2>
+        <p>A fun, non-medical check! **Always consult a doctor for real health advice.**</p>
+        <form id="healthQuizForm">
+            <div class="form-group">
+                <label for="height">How tall are you? (cm):</label>
+                <input type="number" id="height" required>
+            </div>
+            <div class="form-group">
+                <label for="exercise">How often do you exercise? (days/week):</label>
+                <input type="number" id="exercise" min="0" max="7" required>
+            </div>
+            <button type="submit" class="cta-button submit-btn">Get My Fun Insight!</button>
+        </form>
+        <div id="quizResult" class="result-box"></div>
+    </section>
+
+    <hr>
+
+    <footer id="connect" class="main-footer">
+        <p>&copy; 2025 Tall BP Watch Project. Made with ❤️ for a school assignment.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a> | <a href="#">Instagram</a> | <a href="#">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
